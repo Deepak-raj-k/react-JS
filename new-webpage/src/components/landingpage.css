@@ -1,0 +1,142 @@
+.mainContainer {
+    background-image: url(https://img.freepik.com/free-photo/cyberpunk-woman-warrior-urban-scenery_23-2150712332.jpg?t=st=1732194819~exp=1732198419~hmac=a4a3852109dd7b552946fcd0aa1b77ea3f9436ee3018d620a2a66e2531c963db&w=2000);
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container-1 {
+    background-color: transparent;
+    position: fixed;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.header-content h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #ffff;
+}
+
+.header-content {
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.username-input {
+    margin: 30px 150px;
+}
+
+.username-input input {
+    width: 25vw;
+    height: 40px;
+    text-indent: 15px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.username-input input:focus {
+    outline: none;
+}
+
+.password-input {
+    margin: 30px 150px;
+}
+
+.password-input input {
+    width: 25vw;
+    height: 40px;
+    border-radius: 20px;
+    text-indent: 20px;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.password-input input:focus {
+    outline: none;
+}
+
+.checkbox-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px;
+}
+
+.checkbox-content a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.checkbox-content input {
+    transition: all 3s ease;
+}
+
+.checkbox-content a:hover {
+    text-decoration: underline;
+    transition: all 5s ease;
+}
+
+.login-btn {
+    margin: 30px 150px;
+}
+
+.login-btn button {
+    width: 25vw;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+}
+
+.login-btn button:hover {
+    background-color: rgba(36, 7, 227, 0.807);
+    color: yellow;
+    transition: all .5s ease;
+}
+
+.container-account {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.container-account a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container-account a:hover {
+    text-decoration: underline;
+    transition: all 5s ease;
+
+}
+
+
+
+
+/* ------------------------------------media query----------------------------- */
+
+@media screen and (max-width:700px) {
+    .username-input input {
+        width: 60vw;
+    }
+
+    .password-input input {
+        width: 60vw;
+    }
+
+    .login-btn button {
+        width: 60vw;
+    }
+}

@@ -1,0 +1,230 @@
+.main-container {
+    background-image: url(../images/register-bg.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.main-container h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bolder;
+    margin: 25px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: rgba(237, 233, 228, 0.796);
+
+}
+
+.name-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 100px;
+    margin: 10px;
+
+}
+
+.firstname-container {
+    margin: 10px;
+}
+
+.firstname-container input {
+    width: 18vw;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    padding: 20px;
+    text-indent: 20px;
+}
+
+.firstname-container label {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 0px 10px;
+}
+
+.firstname-container input:focus {
+    outline: none;
+}
+
+.email-cointainer {
+    margin: 10px;
+    padding: 5px 115px;
+}
+
+.email-cointainer input {
+    width: 45vw;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    padding: 20px;
+    text-indent: 20px;
+}
+
+
+.email-cointainer input:focus{
+    outline: none;
+}
+
+.email-cointainer label {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 0px 10px;
+}
+
+.gender_date-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender-container {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 15px;
+    padding: 5px 112px;
+
+}
+
+.gender-container input {
+    width: 2vw;
+    cursor: pointer;
+}
+
+.dob-container{
+    margin: 15px;
+    padding: 5px 112px;
+}
+
+.dob-container label {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 0px 10px;
+}
+
+.dob-container input {
+    width: 15vw;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    padding: 20px;
+    text-indent: 20px;
+}
+
+.dob-container input:focus{
+    outline: none;
+}
+
+.phone-num-container{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 15px;
+    padding: 5px 112px;
+}
+
+.code-box {
+    width: 5vw; 
+    text-align: center;
+    margin: 0 10px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.code-box:focus{
+outline: none;
+}
+
+.ph-box{
+    width: 25vw; 
+    text-indent: 20px;
+    margin: 0 10px;
+    border: none;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.ph-box:focus{
+    outline: none;
+}
+
+.address-container{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 15px;
+    padding: 5px 112px;
+    display: flex;
+}
+
+.address-container textarea{
+    margin: 0px 20px;
+    width: 30vw;
+    height: 15vh;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.address-container textarea:focus{
+    outline: none;
+}
+
+.city-state-container{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 15px;
+    padding: 5px 112px;
+}
+
+.city-state-container label {
+    margin: 15px 10px;
+}
+
+.city-state-container input{
+    width: 20vw;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    padding: 20px;
+    text-indent: 20px;
+}
+
+.city-state-container input:focus{
+    outline: none;
+}
+
+.btn-sumbit-clear{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 500px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.btn-sumbit-clear button{
+    margin: 5px;
+    width: 5vw;
+    border-radius: 50px;
+    background-color: red ;
+    border: none;
+    transition: all .7s ease;
+    padding: 5px;
+}
+
+.btn-sumbit-clear button:hover{
+background-color: rgba(255, 0, 0, 0.634);
+box-sizing: border-box;
+border: 2px solid;
+}

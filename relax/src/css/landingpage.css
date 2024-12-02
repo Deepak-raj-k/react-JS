@@ -1,0 +1,149 @@
+.mainContainer {
+    background-image: url(../images/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container-1 {
+    background-color: transparent;
+    position: fixed;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.header-content h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #ffff;
+}
+
+.header-content {
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.username-input {
+    margin: 30px 150px;
+}
+
+.username-input input {
+    width: 25vw;
+    height: 40px;
+    text-indent: 15px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.username-input input:focus {
+    outline: none;
+}
+
+.password-input {
+    margin: 30px 150px;
+}
+
+.password-input input {
+    width: 25vw;
+    height: 40px;
+    border-radius: 20px;
+    text-indent: 20px;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.password-input input:focus {
+    outline: none;
+}
+
+.checkbox-content {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    margin: 30px 150px;
+}
+
+.checkbox-content a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.checkbox-content input {
+    transition: all 3s ease;
+}
+
+.checkbox-content a:hover {
+    text-decoration: underline;
+    transition: all 5s ease;
+}
+
+.login-btn {
+    margin: 30px 150px;
+}
+
+.login-btn button {
+    width: 25vw;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+}
+
+.login-btn button:hover {
+    background-color: rgba(227, 25, 7, 0.266);
+    color: yellow;
+    transition: all .5s ease;
+}
+
+.container-account {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.container-account a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container-account a:hover {
+    text-decoration: underline;
+    transition: all 5s ease;
+
+}
+
+
+
+
+/* ------------------------------------media query----------------------------- */
+
+@media screen and (max-width:700px) {
+    .username-input input {
+        width: 60vw;
+    }
+
+    .password-input input {
+        width: 60vw;
+    }
+
+    .login-btn button {
+        width: 60vw;
+    }
+
+    .container-1{
+        border: none;
+    }
+
+}
